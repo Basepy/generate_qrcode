@@ -31,7 +31,7 @@ def generate_qr_code_with_logo(data, logo_path, output_path):
 if __name__ == "__main__":
     # Substitua os valores abaixo com seus dados e caminhos de arquivo desejados
     data_to_encode = "https://t.me/stack_fy_bot"
-    logo_path = "logo.png"
+    logo_path = "caminho_para_imagem/logo.png"
     output_image_path = "STACKFbot.png"
 
     generate_qr_code_with_logo(data_to_encode, logo_path, output_image_path)
